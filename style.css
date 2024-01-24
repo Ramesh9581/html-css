@@ -1,0 +1,161 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.nav-bar{
+    display: flex;
+    background-color: #232121;
+    color: aliceblue;
+    height: 80px;
+    width: 100%;
+}
+.logo{
+    height: 50px;
+    width: 100px;
+    margin-left: 100px;
+    padding-top: 15px;
+}
+.nav-right{
+    margin-left:650px ;
+    
+}
+.service{
+    word-spacing: 70px;
+    padding-top: 30px;
+   
+}
+.service li{
+    list-style-type:none;
+    display: inline;
+    letter-spacing: 2px;
+    font-weight: 500;
+
+    
+}
+.service li a{
+    text-decoration: none;
+    color: white;
+}
+.search{
+    margin-left: 110px;
+    padding-top: 30px;
+    
+}
+.cinema{
+   width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    
+    
+}
+.container{
+    background: #151313;
+    color: white;
+    height: 200px;
+    width: 100%;
+
+}
+.matter{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 50px;
+
+}
+.watch{
+    text-align: center;
+    padding-top: 20px;
+}
+.lang-but{
+    text-align: center;
+    padding-top: 20px;
+    word-spacing: 10px;
+    border-radius: 10px;
+   
+}
+.lang-but button{
+    width: 40px;
+    height: 25px;
+    border-radius:5px;
+}
+.lang-but button:hover{
+    background-color: red;
+}
+.grid-container{
+    background:#151313 ;
+    display: flex;
+    
+    img{
+        height: 250px;
+        width: 200px;
+        padding-left: 45px;
+        padding-top: 20px;
+        
+    }
+}
+.card-body h4{
+    color: white;
+    padding-left: 45px;
+}
+.card-button{
+    padding-left: 45px;
+    
+}
+.card-button button{
+    background-color: #232121;
+    color: green;
+}
+.card:hover{
+    transform: scale(1.01);
+    transition: all 2s ;
+}
+.container-2{
+    background: #151313;
+    padding-top: 30px;
+    display: flex;
+    img{
+        height: 250px;
+        width: 200px;
+        padding-left: 45px;
+        padding-top: 20px;
+    }
+}
+.container-3{
+    background: #151313;
+    padding-top: 30px;
+    display: flex;
+    img{
+        height: 250px;
+        width: 200px;
+        padding-left: 45px;
+        padding-top: 20px;
+}
+}
+.container-4{
+    background: #151313;
+    padding-top: 30px;
+    display: flex;
+    img{
+        height: 250px;
+        width: 200px;
+        padding-left: 45px;
+        padding-top: 20px;
+}
+}
+.footer{
+    display: flex;
+    background: #151313;
+    padding-top: 50px;
+
+}
+.footer-left a{
+    text-decoration: none;
+    color:rgb(164, 164, 164) ;
+    padding-left: 10px;
+   
+}
+.footer-right h4{
+    text-align: right;
+    color:rgb(164, 164, 164);
+    padding-left: 1110px;
+}
